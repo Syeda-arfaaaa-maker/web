@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syed Aarfa | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #eef2ff, #fdf2f8);
+            color: #222;
+            min-height: 100vh;
+        }
+
+        header {
+            background: linear-gradient(135deg, #4f46e5, #9333ea);
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 18px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        .card h2 {
+            color: #4f46e5;
+            margin-bottom: 15px;
+            font-size: 28px;
+        }
+
+        .card p {
+            font-size: 17px;
+            line-height: 1.7;
+            color: #555;
+        }
+
+        .hobbies {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .hobby {
+            background: #eef2ff;
+            color: #4f46e5;
+            padding: 15px 25px;
+            border-radius: 30px;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            background: #111827;
+            color: white;
+            padding: 25px;
+            margin-top: 50px;
+        }
+
+        footer p {
+            font-size: 15px;
+            opacity: 0.8;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 36px;
+            }
+
+            header p {
+                font-size: 17px;
+            }
+
+            .card {
+                padding: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Syed Aarfa</h1>
+        <p>Computer Science Engineering Student</p>
+    </header>
+
+    <main class="container">
+
+        <section class="card">
+            <h2>About Me</h2>
+            <p>
+                Hello! My name is <strong>Syed Aarfa</strong>.
+                I am currently pursuing Computer Science Engineering at
+                <strong>JIT Davangere</strong>. I am passionate about learning
+                technology, improving my skills, and exploring new opportunities
+                in the field of computer science.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>Education</h2>
+            <p>
+                <strong>Bachelor of Engineering - Computer Science Engineering</strong><br>
+                JIT Davangere
+            </p>
+
+            <br>
+
+            <p>
+                <strong>Pre-University (PU)</strong><br>
+                Vaishnavi Chetana
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>My Hobbies</h2>
+
+            <div class="hobbies">
+                <div class="hobby">✈️ Travelling</div>
+                <div class="hobby">🎵 Listening to Music</div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Syed Aarfa | Personal Portfolio</p>
+    </footer>
+
+</body>
+</html>
